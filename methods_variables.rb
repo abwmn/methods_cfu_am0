@@ -8,8 +8,13 @@
 #  call reverse on the variable, print it out
 #  call length on the variable, print it out
 
+string = "sIlLy StRiNg"
 
-
+puts string.upcase
+puts string.upcase
+puts string.downcase
+puts string.reverse
+puts string.length
 
 
 

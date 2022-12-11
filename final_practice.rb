@@ -4,6 +4,13 @@
 # What is the return value of your method?
 # How many arguments did you pass your method?
 
+def greeting
+    puts "Hey there, friend"
+end
+
+greeting
+
+# The return value is the string
 
 
 
