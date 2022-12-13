@@ -16,7 +16,7 @@ greeting
 #2: Write a method named custom_greeting that prints out a greeting WITH a specific name.
 
 def custom_greeting(name)
-    puts "Hey there, " + name
+    puts "Hey there, #{name}" 
 end
 
 custom_greeting('Kaitlyn')
@@ -29,7 +29,7 @@ custom_greeting('Kaitlyn')
 # and include it in the last line of the method to force it to return the string:
 
 def custom_greeting2(name)
-    greeting2 = "Hey there, " + name
+    greeting2 = "Hey there, #{name}" 
     puts greeting2
     greeting2
 end
@@ -54,7 +54,7 @@ puts square(8)
 #4: Write a method named greet_person that takes in 3 strings, a first, middle, and last name, and print outs the sentence of the entire string
 
 def greet_person(first, middle, last)
-    puts "Hey there, " + first + ' ' + middle + ' ' + last
+    puts "Hey there, #{first} #{middle} #{last}" 
 end
 
 greet_person('Andrew', 'Taylor', 'Bowman')
